@@ -23,7 +23,7 @@ Bot.on('message', message => {
 
     if (message.content.toLowerCase().startsWith(commande + "hello")){//Bonjour
         
-        message.channel.send("Salut " + message.member.displayName);
+        message.channel.send("Salut " + message.member.displayName + ", je suis heureux de te voir :)");
         
     }
     
